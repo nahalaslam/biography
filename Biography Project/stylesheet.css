@@ -1,0 +1,63 @@
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar-nav .nav-item:hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffc800; /* Yellow color */
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item:hover::before {
+    transform: scaleX(1);
+}
+.btn:hover {
+background: linear-gradient(to right, #ff7b00, #ffee00); /* Gradient background on hover */
+}
+.card {
+background-color: #ffd900;
+color: #000000;
+border-radius: 10px;
+overflow: hidden;
+position: relative;
+transition: transform 0.3s;
+
+}
+
+.card:hover {
+background-color: #ffcc00; /* Yellow */
+color: #000; /* Black */
+transform: scale(1.05);
+box-shadow: 4px 4px 10px 0px rgb(255, 217, 0);
+
+}
+
+.card-content {
+padding: 20px;
+box-sizing: border-box;
+}
+
+h2, p {
+margin: 0;
+}
+.btn
+{
+background-color: #000000; /* Yellow */
+color: #ffc800; /* Black */
+transform: scale(1.05);
+}
+.bi:hover
+{
+color: #ffc800;
+transform: scale(1.5);
+}
+.body {
+    background-color: #000;
+    color: white;
+}
